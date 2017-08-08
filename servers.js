@@ -1,6 +1,6 @@
 var http = require('http');
 
-var PORT = 7000;
+var PORTONE = 7000;
 
 var server = http.createServer(function(request,response){
   response.end("You're not bad looking...glad you came here");
@@ -12,9 +12,9 @@ server.listen(PORT, function () {
 
 var http = require('http');
 
-var PORT = 7500;
+var PORTTWO = 7500;
 
-var server = http.createServer(function(request,response){
+var serverOne = http.createServer(function(request,response){
   response.end("You need some time to self-reflect...just leave.");
 });
 
